@@ -13,7 +13,7 @@ LogSoftmax is used for the output values from the model for each image predictio
 
 :exclamation: I saved the model 25 epochs (classifier_V2.pth) in the repo.
 
-:exclamation: For more epochs, this notebook is based on 40 epochs (data_modeling_40epoch.ipynb) the train acc increases but the test acc decrease Not much, the model called (classifier_V3.pth).
+:exclamation: For more epochs, this notebook is based on 40 epochs (data_modeling_40epoch.ipynb) the train acc increases but the test acc decrease Not much.
 
 :bulb: To improve the model we need to perform oversampling for imbalanced classes
 
