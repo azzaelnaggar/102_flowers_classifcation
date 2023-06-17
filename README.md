@@ -11,8 +11,6 @@ The flowers chosen to be flowers commonly occur in the United Kingdom. Each clas
 :point_right: Using ResNet50 . In our case, I want to predict 102 flower classes so I use an ordered dictionary to create the final layers of my network with 102 outputs. So I define a new untrained feed-forward network as a classifier, using ReLU activations and dropout. 
 LogSoftmax is used for the output values from the model for each image prediction.
 
-:exclamation: I saved the model 25 epochs (classifier_V2.pth) in the repo.
-
 :exclamation: For more epochs, this notebook is based on 40 epochs (data_modeling_40epoch.ipynb) the train acc increases but the test acc decrease Not much.
 
 :bulb: To improve the model we need to perform oversampling for imbalanced classes
